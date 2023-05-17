@@ -48,6 +48,8 @@ yyyymmddHHMM_nwp_t2.csv files
 
 data/nwp_obs (is an empty directory for now)
 
+data/nwp_grids (will contain nc files needed for future steps of the project, is empty for now)
+
 test/ (contains scripts to test, is empty for now)
 
 run/ (contains bash files for software development, is empty for now)
