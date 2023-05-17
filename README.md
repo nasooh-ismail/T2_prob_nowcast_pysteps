@@ -32,6 +32,8 @@ notebook/ (cotainsnjupyter notebooks to generate plots/CF feilds)
 
 S6_get_station_timeseries_plot.ipynb
   plots a timeseries for one station using the csv data files
+S7_CF_for_specific_timestep.ipynb
+  generates a CF dataframe for a specific timesetep which can be interpolated
 
 data/ (containsthe data files)
 data/obs (contains obs csv files)
