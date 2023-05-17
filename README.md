@@ -4,7 +4,7 @@ This is a project to do a probabilistic nowcast for 2meter temperature for the h
 
 explanation of directories / files are named as follows:
 
-src/ (contains python scripts to generate all the CSV files)
+# src/ (contains python scripts to generate all the CSV files)
 
 S1_station_dictionary_and_t2_extractt.py
   generates a concated csv called obs_t2.csv based on the shape(how many timesteps of data available) from the raw obs data files and generates a station_dictionary
@@ -28,12 +28,12 @@ S5_extract_data_from_nc.py
   extracts temperature from each nc file for all the stations and generates a csv seperatly for each file
 
 
-notebook/ (cotainsnjupyter notebooks to generate plots/CF feilds)
+# notebook/ (cotainsnjupyter notebooks to generate plots/CF feilds)
 
 S6_get_station_timeseries_plot.ipynb
   plots a timeseries for one station using the csv data files
 
-data/ (containsthe data files)
+# data/ (containsthe data files)
 data/obs (contains obs csv files)
 station_dictionary.csv
   contains all the metadata (station_id,lat,lon,x,y,alt) for all the stations
@@ -42,17 +42,17 @@ t2_obs.csv
 yyyymmdd_obs_t2.csv files
   one file for each day 
 
-data/nwp (contains forecast nwp csv files)
+# data/nwp (contains forecast nwp csv files)
 yyyymmddHHMM_nwp_t2.csv files
   each file for each nwp output nc files (HHMM is the run time for specifc file)
 
-data/nwp_obs (is an empty directory for now)
+# data/nwp_obs (is an empty directory for now)
 
-data/nwp_grids (will contain nc files needed for future steps of the project, is empty for now)
+# data/nwp_grids (will contain nc files needed for future steps of the project, is empty for now)
 
-test/ (contains scripts to test, is empty for now)
+# test/ (contains scripts to test, is empty for now)
 
-run/ (contains bash files for software development, is empty for now)
+# run/ (contains bash files for software development, is empty for now)
 
 
 
